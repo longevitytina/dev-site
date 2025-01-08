@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px
+}

@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 12px;
+}
+
+.power_bar {
+  width: 90px;
+  height: 20px;
+  background-color: #c8c8c8;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.status_bar {
+  width: 0;
+  height: 20px;
+  background-color: #81a680;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+.container:hover .status_bar {
+  /* animation: ; */
+  width: 50px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    width: 0%; /* Start at 0% */
+  }
+  25% {
+    width: 25%; /* Expand to 25% */
+  }
+  50% {
+    width: 50%; /* Expand to 50% */
+  }
+  75% {
+    width: 100%; /* Expand to 100% */
+  }
+  100% {
+    width: 0%; /* Return to 0% */
+  }
+}

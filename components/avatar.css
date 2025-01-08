@@ -1,0 +1,56 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  position: relative;
+
+  .hair {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(245, 44, 161);
+  }
+
+  .hair_sides {
+    width: 10px;
+    height: 95px;
+    background-color: rgb(245, 44, 161);
+    position: absolute;
+  }
+
+  .upper {
+    display: flex;
+  }
+
+  .eye1, .eye2 {
+    width: 10px;
+    height: 7px;
+    background-color: black;
+    margin: 10px auto 10px;
+
+  }
+
+  .nose {
+    background-color: rgb(171, 179, 176);
+    width: 10px;
+    height: 10px;
+    margin: auto;
+
+  }
+
+  .mouth_tip {
+    background-color: rgb(27, 29, 28);
+    width: 5px;
+    height: 5px;
+    margin-top: 10px;
+    margin-left: 30px
+
+  }
+
+  .mouth {
+    background-color: rgb(27, 29, 28);
+    width: 40px;
+    height: 5px;
+    margin: 0 auto;
+
+  }
+}
