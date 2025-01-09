@@ -1,10 +1,12 @@
 .ramen_bowl {
     width: 100px;
     height: auto;
+    margin: 50px 0;
 }
 
 .ramen_bowl:hover {
   animation: wiggle 0.2s ease-in-out infinite;
+  cursor: pointer;
 }
 
 @keyframes wiggle {

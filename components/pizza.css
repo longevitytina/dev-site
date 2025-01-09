@@ -8,6 +8,7 @@
 
 .slice:hover {
   animation: rotate 1s ease infinite;
+  cursor: pointer;
 }
 
 @keyframes rotate {

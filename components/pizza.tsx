@@ -9,7 +9,6 @@ export default function Pizza() {
 
   const handleExpand = () => {
     setExpand(!expand);
-    console.log('expand', expand);
   };
 
   return (
@@ -51,10 +50,12 @@ export default function Pizza() {
       <div
         className='project_grid'
         style={{
-          height: expand ? '600px' : '0',
+          height: expand ? 'auto' : '0',
           opacity: expand ? 1 : 0,
           transition: 'height 0.3s ease, opacity 0.3s ease',
           overflow: 'hidden',
+          margin: expand ? '50px 0' : '0'
+
         }}
       >
         <div><Image src='/UIAdventure.png' alt='UI sample of booking platform' width={600} height={300} style={{borderRadius: '4px'}}/></div>
