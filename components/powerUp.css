@@ -76,4 +76,5 @@
 
 .image_grid {
   display: flex;
+  flex-wrap: wrap;
 }
