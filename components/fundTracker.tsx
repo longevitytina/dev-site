@@ -18,7 +18,7 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent, description, link, linkT
     <div className='max-w-[500px] border-2 border-gray-300 border-dashed p-2'>
       <h1 className='flex flex-row items-center gap-2'>
         <Image
-          src={`/${fundName}.svg`}
+          src='/Diaper.svg'
           alt={fundName}
           width={20}
           height={20}
