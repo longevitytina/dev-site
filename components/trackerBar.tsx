@@ -15,8 +15,8 @@ const TrackerBar = ({ fundGoal, fundCurrent }: TrackerBarProps) => {
       <div className="tracker_bar">
         <div className='status_bar' style={{ width: `${percentage}%` }}></div>
         <div className="tick start">0</div>
-        <div className="tick middle">{fundGoal / 2}</div>
-        <div className="tick end">{fundGoal}</div>
+        <div className="tick middle">${fundGoal / 2}</div>
+        <div className="tick end">${fundGoal}</div>
         <div className="current_amount" style={{ left: `${percentage}%` }}>
           ${fundCurrent}
         </div>

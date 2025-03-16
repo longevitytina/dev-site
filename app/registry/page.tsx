@@ -5,11 +5,43 @@ import styles from './registry.module.css';
 
 export default function Registry() {
   return (
-    <div className={`${styles.body} w-full m-2 font-sans`}>
-      <div className='flex flex-col items-center justify-center'>
-        <h1 className='text-2xl font-bold'>Aurora Sophie Taylor-Maniez</h1>
+    <div className={`${styles.body} font-sans`}>
+      <div className='flex flex-col items-center justify-center p-2'>
+        <div className='flex flex-row items-center gap-2'>
+          <Image
+            className={styles.bounceAlt}
+            src='/rattle-baby-svgrepo-com.svg'
+            alt='Logo'
+            width={40}
+            height={40}
+          />
+
+          <Image
+            className={styles.bounce}
+            src='/baby-girl-svgrepo-com.svg'
+            alt='Logo'
+            width={40}
+            height={40}
+          />
+          <h1 className='text-2xl font-bold'>Aurora Sophie Taylor-Maniez</h1>
+          <Image
+            className={styles.bounce}
+            src='/flower-svgrepo-com.svg'
+            alt='Logo'
+            width={40}
+            height={40}
+          />
+          <Image
+            className={styles.bounceAlt}
+            src='/pacifier-svgrepo-com.svg'
+            alt='pacifier'
+            width={40}
+            height={40}
+          />
+        </div>
         <p className='text-lg'>August 12, 2025</p>
-        <div className='flex flex-row gap-4'>
+
+        <div className='flex flex-row gap-4 flex-wrap justify-center'>
           <Image
             src='/11weeks.jpg'
             alt='Aurora'
@@ -17,7 +49,7 @@ export default function Registry() {
             height={500}
           />
           <Image
-            src='/11weeks.jpg'
+            src='/t_m.jpeg'
             alt='Aurora'
             width={500}
             height={500}
@@ -25,7 +57,7 @@ export default function Registry() {
         </div>
       </div>
 
-      <div className='flex flex-col items-center justify-center'>
+      <div className='flex flex-col items-center justify-center text-center w-full'>
         <h1 className='text-xl font-semibold'>
           Want to contribute? We appreciate any and all gifts!
         </h1>
@@ -33,36 +65,71 @@ export default function Registry() {
           We LOVE secondhand! To try and reduce environmental and financial
           impact, we have some ideas, take a peek:
         </p>
-        {/* big items trackers (stroller, crib, car seat, etc) */}
-        <p className='border-2 border-gray-300 border-dashed p-2 mt-4'>Registry for used/new items:
-        <a className='text-blue-500 underline' href='https://my.babylist.com/wfjeyhvzx' target='_blank' rel='noopener noreferrer'>babylist.com/wfjeyhvzx</a>
-        <br />
-        Track what we&apos;ve purchased and what we still need!
-        </p>
-        <p className='border-2 border-gray-300 border-dashed p-2 mt-4'>Mail us hand-me-downs, homemade crafts, pictures, notes, doodles:
-        <br />
-        654 Precita Ave, San Francisco, CA 94110
-        </p>
-      </div>
-      <div className='flex flex-row gap-4 my-4 justify-center'>
-        <FundTracker
-          fundName='Diaper'
-          fundGoal={1000}
-          fundCurrent={200}
-          description='We want to use a composting diaper service for our baby wipes and diaper trash. This is about the same cost as diapers - $120/month.'
-          link='https://dypersf.com/how-it-works'
-          linkText='DyperSF'
-        />
-        <FundTracker
-          fundName='Diaper'
-          fundGoal={1000}
-          fundCurrent={200}
-          description='We want to use a composting diaper service for our baby wipes and diaper trash. This is about the same cost as diapers - $120/month.'
-          link='https://dypersf.com/how-it-works'
-          linkText='DyperSF'
-        />
       </div>
 
+      <div className='flex flex-col items-center justify-center w-full md:max-w-[1200px] m-auto p-2'>
+        <p className='border-2 border-gray-300 border-dashed p-2 mt-4 w-full'>
+          <div className='flex flex-row items-center gap-2'>
+            <Image
+              src='/shopping-bag-svgrepo-com.svg'
+              alt='Shopping Bag'
+              width={40}
+              height={40}
+            />
+            <strong>Registry:</strong>
+            <a
+              className='text-blue-500 underline'
+              href='https://my.babylist.com/wfjeyhvzx'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              babylist.com/wfjeyhvzx
+            </a>
+          </div>
+          <br />
+          <div className='flex flex-row items-center gap-2'>
+            <Image
+              src='/baby-shoes-svgrepo-com.svg'
+              alt='shoe'
+              width={40}
+              height={40}
+            />{' '}
+            <strong>Clothing:</strong> There are some item ideas on the
+            registry, but we&apos;d love anything you find cute, useful or
+            secondhand.
+          </div>
+          <br />
+          <div className='flex flex-row items-center gap-2'>
+            <Image
+              src='/giraffe-toy-svgrepo-com.svg'
+              alt='Giraffe'
+              width={40}
+              height={40}
+            />{' '}
+            <strong>Toys:</strong> We&apos;re not sure what we need, but
+            we&apos;d love anything you find cute, useful or secondhand.
+          </div>
+        </p>
+        <p className='w-full border-2 border-gray-300 border-dashed p-2 mt-4 flex flex-row items-center gap-2'>
+          {' '}
+          <Image
+            src='/envelope-svgrepo-com.svg'
+            alt='Mail'
+            width={40}
+            height={40}
+          />{' '}
+          <strong>Mail:</strong> If you want to send us hand-me-downs, crafts,
+          pictures, notes, doodles:
+          <br /> 654 Precita Ave, San Francisco, CA 94110
+        </p>
+      </div>
+      <div className='flex p-2 items-center justify-center'>
+        <FundTracker
+          fundName='Big Purchases'
+          fundGoal={2250}
+          fundCurrent={200}
+        />
+      </div>
     </div>
   );
 }

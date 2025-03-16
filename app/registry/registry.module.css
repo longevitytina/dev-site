@@ -3,3 +3,29 @@
   color: #2d3748;
   font-family: 'Arial', sans-serif;
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounceAlt {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.bounceAlt {
+  animation: bounceAlt 1s infinite 0.5s;
+}
