@@ -126,7 +126,7 @@ export default function Registry() {
       <div className='flex p-2 items-center justify-center'>
         <FundTracker
           fundName='Big Purchases'
-          fundGoal={2250}
+          fundGoal={2550}
           fundCurrent={200}
         />
       </div>

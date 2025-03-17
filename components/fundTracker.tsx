@@ -86,6 +86,7 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent }: FundTrackerProps) => {
             </a>
           </li>
           <li>$100 - Baby gates</li>
+          <li>$300 - Breast pump, insurance only covers a portion - boo!</li>
         </ul>
         <br />
       </div>
