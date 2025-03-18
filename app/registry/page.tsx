@@ -19,7 +19,7 @@ export default function Registry() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (input === ACCESS_CODE) {
+    if (input.toLowerCase() === ACCESS_CODE) {
       document.cookie = 'access_granted=true; path=/; max-age=86400'; // Cookie lasts 1 day
       setIsUnlocked(true);
     } else {
