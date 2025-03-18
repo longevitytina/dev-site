@@ -2,8 +2,59 @@
 import FundTracker from '@/components/fundTracker';
 import Image from 'next/image';
 import styles from './registry.module.css';
+import { useEffect, useState } from 'react';
+
+const ACCESS_CODE = process.env.NEXT_PUBLIC_ACCESS_CODE;
 
 export default function Registry() {
+  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [input, setInput] = useState('');
+
+  useEffect(() => {
+    // Check if access cookie exists
+    if (document.cookie.includes('access_granted=true')) {
+      setIsUnlocked(true);
+    }
+  }, []);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (input === ACCESS_CODE) {
+      document.cookie = 'access_granted=true; path=/; max-age=86400'; // Cookie lasts 1 day
+      setIsUnlocked(true);
+    } else {
+      alert('Incorrect code. Try again.');
+    }
+  };
+
+  if (!isUnlocked) {
+    return (
+      <div className='flex flex-col items-center justify-center h-screen font-sans'>
+        <div>
+          <form
+            onSubmit={handleSubmit}
+            className='flex flex-row items-center gap-2'
+          >
+            <input
+              type='text'
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder='Enter Password'
+              required
+              className='border p-2 rounded text-black'
+            />
+            <button
+              type='submit'
+              className='bg-pink-200 text-black px-4 py-2 rounded'
+            >
+              Unlock
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={`${styles.body} font-sans`}>
       <div className='flex flex-col items-center justify-center p-2'>
