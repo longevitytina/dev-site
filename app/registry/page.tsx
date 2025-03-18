@@ -67,8 +67,8 @@ export default function Registry() {
         </p>
       </div>
 
-      <div className='flex flex-col items-center justify-center w-full md:max-w-[1200px] m-auto p-2'>
-        <p className='border-2 border-gray-300 border-dashed p-2 mt-4 w-full'>
+      <div className='flex flex-col items-center justify-center w-full md:max-w-[1200px] m-auto py-2'>
+        <div className='border-2 border-gray-300 border-dashed p-2 mt-4 w-full'>
           <div className='flex flex-row items-center gap-2'>
             <Image
               src='/shopping-bag-svgrepo-com.svg'
@@ -109,7 +109,7 @@ export default function Registry() {
             <strong>Toys:</strong> We&apos;re not sure what we need, but
             we&apos;d love anything you find cute, useful or secondhand.
           </div>
-        </p>
+        </div>
         <p className='w-full border-2 border-gray-300 border-dashed p-2 mt-4 flex flex-row items-center gap-2'>
           {' '}
           <Image
@@ -123,7 +123,7 @@ export default function Registry() {
           <br /> 654 Precita Ave, San Francisco, CA 94110
         </p>
       </div>
-      <div className='flex p-2 items-center justify-center'>
+      <div className='flex py-2 items-center justify-center'>
         <FundTracker
           fundName='Big Purchases'
           fundGoal={2550}
