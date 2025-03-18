@@ -28,7 +28,7 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent }: FundTrackerProps) => {
           fundGoal={fundGoal}
           fundCurrent={fundCurrent}
         />
-      <Payment fundName={fundName} />
+      <Payment />
 
       </div>
       <div>
