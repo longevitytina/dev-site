@@ -57,7 +57,7 @@ export default function Registry() {
 
   return (
     <div className={`${styles.body} font-sans`}>
-      <div className='flex flex-col items-center justify-center p-2'>
+      <div className='flex flex-col items-center justify-center text-center p-2'>
         <div className='flex flex-row items-center gap-2'>
           <Image
             className={styles.bounceAlt}
@@ -169,9 +169,13 @@ export default function Registry() {
             width={40}
             height={40}
           />{' '}
-          <strong>Mail:</strong> If you want to send us hand-me-downs, crafts,
-          pictures, notes, doodles:
+          <strong>Contact:</strong> If you want to send us hand-me-downs, crafts,
+          pictures, notes, doodles. We&apos;d love to chat and see pictures of
+          you. Text or email us!
+          <br />
           <br /> 654 Precita Ave, San Francisco, CA 94110
+          <br /> longevity.tina@gmail.com
+          <br /> 415-779-2256
         </p>
       </div>
       <div className='flex py-2 items-center justify-center'>
