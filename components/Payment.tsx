@@ -1,18 +1,13 @@
 'use client'
 import React from "react";
 
-interface PaymentProps {
-  fundName: string;
-}
 
-const Payment = ({ fundName }: PaymentProps) => {
-  const venmoLink = `https://account.venmo.com/pay?audience=friends&note=${encodeURIComponent(fundName)}&recipients=Christina-Taylor&txn=pay`;
+const Payment = () => {
+  const venmoLink = `https://account.venmo.com/pay?audience=friends&note=registryFund&recipients=Christina-Taylor&txn=pay`;
 
   const paypalLink = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=${encodeURIComponent(
     "longevity.tina@gmail.com"
-  )}&amount=20&currency_code=USD&item_name=${encodeURIComponent(
-    fundName
-  )}`;
+  )}&amount=20&currency_code=USD&item_name=registryFund`;
 
   const openZellePopup = () => {
     const popup = window.open('', 'Zelle QR', 'width=600,height=600');
@@ -24,7 +19,7 @@ const Payment = ({ fundName }: PaymentProps) => {
           <p>1. Open your mobile phone banking app (ex. Chase)</p>
           <p>2. Go to "Send payment via Zelle"</p>
           <p>3. Select "Scan QR code"</p>
-          <p>4. Add note for which fund you are contributing to (Diaper, etc)</p>
+          <p>4. Add note "Registry Fund"</p>
           <img src="zelleQR.png" alt="Zelle QR Code" style="width:80%; height:auto;"/>
           </body>
         </html>
