@@ -94,17 +94,24 @@ export default function Registry() {
 
         <div className='flex flex-row gap-4 flex-wrap justify-center'>
           <Image
-            src='/11weeks.jpg'
-            alt='Aurora'
-            width={500}
-            height={500}
+            src='/auroa11weeks.jpg'
+            alt='ultrasound image'
+            width={300}
+            height={300}
           />
           <Image
-            src='/t_m.jpeg'
-            alt='Aurora'
-            width={500}
-            height={500}
+            src='/marcTina.jpg'
+            alt='Marc and Tina'
+            width={300}
+            height={300}
           />
+          <Image
+            src='/auroa19weeks.jpg'
+            alt='ultrasound image'
+            width={300}
+            height={300}
+          />
+
         </div>
       </div>
 
@@ -182,7 +189,7 @@ export default function Registry() {
         <FundTracker
           fundName='Big Purchases'
           fundGoal={2550}
-          fundCurrent={200}
+          fundCurrent={500}
         />
       </div>
     </div>
