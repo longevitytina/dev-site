@@ -32,7 +32,7 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent }: FundTrackerProps) => {
 
       </div>
       <div>
-        <p>This fund is for all big items, most are being hunted down secondhand!</p>
+        <p>This fund is for all big items, most are being hunted down secondhand and buying locally!</p>
         <ul>
           <li>
             $500 - Car seat/bases, bassinet, toddler seat, stroller combo; we
