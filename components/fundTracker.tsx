@@ -32,58 +32,23 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent }: FundTrackerProps) => {
 
       </div>
       <div>
-        <p>This fund is for all big items, most are being hunted down secondhand and buying locally!</p>
+        <p>Prefer to cash contribute? This fund is for all big items, most are being hunted down secondhand and buying locally!</p>
         <ul>
           <li>
             $500 - Car seat/bases, bassinet, toddler seat, stroller combo; we
             found a great secondhand deal!{' '}
           </li>
           <li>
-            $1000 -{' '}
-            <a
-              className='text-blue-500 underline'
-              href='https://dypersf.com/how-it-works'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Composting Diaper Service
-            </a>{' '}
-            with supplies (diapers, wipes, liners) for 1 year{' '}
+            $1000 - Dypersf Composting Diaper Service with supplies (diapers, wipes, liners) for 1 year
           </li>
           <li>
-            {' '}
-            $200 -{' '}
-            <a
-              className='text-blue-500 underline'
-              href='https://goodbuygear.com/products/stokke-tripp-trapp-complete-high-chair-natural-dots-grey'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Stokke Tripp Trapp highchair{' '}
-            </a>{' '}
-            adjustable for all age phases{' '}
+            $200 - Stokke Tripp Trapp highchair adjustable for all age phases
           </li>
           <li>
-            $250 -{' '}
-            <a
-              className='text-blue-500 underline'
-              href='https://a.co/d/8V5vJck'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Baby monitor with camera
-            </a>
+            $250 - Baby monitor with camera
           </li>
           <li>
-            $200 -{' '}
-            <a
-              className='text-blue-500 underline'
-              href='https://a.co/d/8zln4ap'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Playpen fence
-            </a>
+            $200 - Playpen fence
           </li>
           <li>$100 - Baby gates</li>
           <li>$300 - Breast pump, insurance only covers a portion - boo!</li>
