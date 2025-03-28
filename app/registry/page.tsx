@@ -111,18 +111,86 @@ export default function Registry() {
             width={300}
             height={300}
           />
-
         </div>
-      </div>
 
-      <div className='flex flex-col items-center justify-center text-center w-full'>
-        <h1 className='text-xl font-semibold'>
-          Want to contribute? We appreciate any and all gifts!
-        </h1>
-        <p className='text-md'>
-          We LOVE secondhand! To try and reduce environmental and financial
-          impact, we have some ideas, take a peek:
-        </p>
+        <div className='flex flex-col items-center justify-center text-center w-full'>
+          <h1 className='text-xl font-semibold'>
+            Want to contribute? We appreciate any and all gifts!
+          </h1>
+          <p className='text-md'>
+            We LOVE secondhand! To try and reduce environmental and financial
+            impact, we have some ideas, take a peek:
+          </p>
+        </div>
+
+        <div className='flex border-2 border-gray-300 border-dashed p-2 mt-4 w-full md:max-w-[1200px] m-auto'>
+          <div className='flex flex-row items-center gap-2'>
+            <Image
+              src='/chat-chat-svgrepo-com.svg'
+              alt='Chat bubble'
+              width={40}
+              height={40}
+            />
+            <strong>Updates:</strong>
+            <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
+              <strong>3/21/25: 19-Week Ultrasound - half way there!</strong>
+              <p>
+                45 minutes of the ultrasound technician poking around to check
+                every organ system and body part. Aurora didn&apos;t appreciate
+                the poking; she kept twisting, turning, and running around. But
+                we were able to see lots of brain and heart angles. Everything
+                is growing right on track.
+              </p>
+              <p>Tina&apos;s belly is growing and really showing now!</p>
+              <div className='flex flex-row gap-2'>
+                <Image
+                  src='/20weeks.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/5weeks.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <br />
+              <strong>2/26/25: 16-Week Heartbeat Listening</strong>
+              <p>
+                We got to hear the heartbeat for the first time! It was about
+                145/minute, everything sounded normal and rhythmic. It was really
+                cool to get to hear Aurora&apos;s healthy little heart 💗
+              </p>
+              <br />
+              <strong>1/24/25: 11-Week Ultrasound</strong>
+              <p>
+                We got to see Aurora&apos;s little hands and her heartbeat. This
+                was a really special day, she&apos;s no longer a little blob!
+                Tina cried a little. All the genetic tests pass with low risk of
+                Spina bifida or other neural tube defects.
+              </p>
+              <br />
+              <strong>12/24/25: 7-Week Ultrasound</strong>
+              <p>
+                The best Christmas present! We got to see Aurora for the first
+                time. She was about 1cm long and had a tiny heartbeat; She was
+                just a little blob and yolk sack but it was a special day to
+                remember. We found out her birthday is estimated for August 12th;
+                close to her mom&apos;s on August 8th. Another feisty Leo 🦁
+                <br />
+                Genetic testing passed with low risk of chromosomal abnormalities. So Grateful!
+              </p>
+              <Image
+                src='/aurora7weeks.jpg'
+                alt='ultrasound image'
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className='flex flex-col items-center justify-center w-full md:max-w-[1200px] m-auto py-2'>
@@ -176,9 +244,9 @@ export default function Registry() {
             width={40}
             height={40}
           />{' '}
-          <strong>Contact:</strong> If you want to send us hand-me-downs, crafts,
-          pictures, notes, doodles. We&apos;d love to chat and see pictures of
-          you. Text or email us!
+          <strong>Contact:</strong> If you want to send us hand-me-downs,
+          crafts, pictures, notes, doodles. We&apos;d love to chat and see
+          pictures of you. Text or email us!
           <br />
           <br /> 654 Precita Ave, San Francisco, CA 94110
           <br /> longevity.tina@gmail.com
