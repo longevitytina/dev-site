@@ -139,8 +139,29 @@ export default function Registry() {
                 every organ system and body part. Aurora didn&apos;t appreciate
                 the poking; she kept twisting, turning, and running around. But
                 we were able to see lots of brain and heart angles. Everything
-                is growing right on track.
+                is growing right on track. Check out these cute pics of Aurora&apos;s little butt(upward facing angle), face, and feet!
               </p>
+              <div className='flex flex-row gap-2'>
+
+                <Image
+                  src='/auroa19weeksbutt.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
+                  />
+              <Image
+                src='/auroa19weeksface.jpg'
+                alt='ultrasound image'
+                width={200}
+                height={200}
+                />
+              <Image
+                src='/auroa19weeksfeet.jpg'
+                alt='ultrasound image'
+                width={200}
+                height={200}
+                />
+                </div>
               <p>Tina&apos;s belly is growing and really showing now!</p>
               <div className='flex flex-row gap-2'>
                 <Image
@@ -171,6 +192,12 @@ export default function Registry() {
                 Tina cried a little. All the genetic tests pass with low risk of
                 Spina bifida or other neural tube defects.
               </p>
+              <Image
+                src='/auroa11weeks.jpg'
+                alt='ultrasound image'
+                width={200}
+                height={200}
+              />
               <br />
               <strong>12/24/25: 7-Week Ultrasound</strong>
               <p>
