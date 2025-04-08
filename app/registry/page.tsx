@@ -133,6 +133,22 @@ export default function Registry() {
             />
             <strong>Updates:</strong>
             <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
+              <strong>4/4/25: 21-Week - Out to the Gala</strong>
+              <p>
+                Tina and Aurora went with the house gang to the gala to celebrate with friends. Aurora was a little shy but had a great time. Full tummy display in the evening gown.
+              </p>
+              <Image
+                  src='/gala.jpg'
+                  alt='friends at gala'
+                  width={400}
+                  height={400}
+                  />
+              <br />
+              <strong>4/2/25: 21-Week - Is that a kick?</strong>
+              <p>
+              The beginning of movement! It&apos;s a little kick that Tina keeps wondering if it&apos;s a gas bubble or Aurora. But after a few days of it rythmically happening, she&apos;s pretty sure it&apos;s a kick.
+              </p>
+              <br />
               <strong>3/21/25: 19-Week Ultrasound - half way there!</strong>
               <p>
                 45 minutes of the ultrasound technician poking around to check
@@ -284,7 +300,7 @@ export default function Registry() {
         <FundTracker
           fundName='Big Purchases'
           fundGoal={2550}
-          fundCurrent={500}
+          fundCurrent={700}
         />
       </div>
     </div>

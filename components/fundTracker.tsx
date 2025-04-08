@@ -32,7 +32,7 @@ const FundTracker = ({ fundName, fundGoal, fundCurrent }: FundTrackerProps) => {
 
       </div>
       <div>
-        <p>Prefer to cash contribute? This fund is for all big items, most are being hunted down secondhand and buying locally!</p>
+        <p>Prefer to cash contribute? This fund is for all big items, most are being hunted down secondhand and buying locally. Here&apos;s what we&apos;re planning for:</p>
         <ul>
           <li>
             $500 - Car seat/bases, bassinet, toddler seat, stroller combo; we
