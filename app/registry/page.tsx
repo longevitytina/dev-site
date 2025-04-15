@@ -133,20 +133,35 @@ export default function Registry() {
             />
             <strong>Updates:</strong>
             <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
+              <strong>4/16/25: 24-Week - Little Kicks</strong>
+              <p>
+                Aurora is having more and more fun with her kicks. Tina no
+                longer confuses them for gas bubbles. There have been some
+                moments where she&apos;s been able to feel the kicks from the
+                outside. Tina&apos;s belly keeps on growing, she may not be able
+                to ride her road bike anymore! 🚲
+                <br />
+              </p>
+              <br />
               <strong>4/4/25: 21-Week - Out to the Gala</strong>
               <p>
-                Tina and Aurora went with the house gang to the gala to celebrate with friends. Aurora was a little shy but had a great time. Full tummy display in the evening gown.
+                Tina and Aurora went with the house gang to the gala to
+                celebrate with friends. Aurora was a little shy but had a great
+                time. Full tummy display in the evening gown.
               </p>
               <Image
-                  src='/gala.jpg'
-                  alt='friends at gala'
-                  width={400}
-                  height={400}
-                  />
+                src='/gala.jpg'
+                alt='friends at gala'
+                width={400}
+                height={400}
+              />
               <br />
               <strong>4/2/25: 21-Week - Is that a kick?</strong>
               <p>
-              The beginning of movement! It&apos;s a little kick that Tina keeps wondering if it&apos;s a gas bubble or Aurora. But after a few days of it rythmically happening, she&apos;s pretty sure it&apos;s a kick.
+                The beginning of movement! It&apos;s a little kick that Tina
+                keeps wondering if it&apos;s a gas bubble or Aurora. But after a
+                few days of it rythmically happening, she&apos;s pretty sure
+                it&apos;s a kick.
               </p>
               <br />
               <strong>3/21/25: 19-Week Ultrasound - half way there!</strong>
@@ -155,29 +170,29 @@ export default function Registry() {
                 every organ system and body part. Aurora didn&apos;t appreciate
                 the poking; she kept twisting, turning, and running around. But
                 we were able to see lots of brain and heart angles. Everything
-                is growing right on track. Check out these cute pics of Aurora&apos;s little butt(upward facing angle), face, and feet!
+                is growing right on track. Check out these cute pics of
+                Aurora&apos;s little butt(upward facing angle), face, and feet!
               </p>
               <div className='flex flex-row gap-2'>
-
                 <Image
                   src='/auroa19weeksbutt.jpg'
                   alt='ultrasound image'
                   width={200}
                   height={200}
-                  />
-              <Image
-                src='/auroa19weeksface.jpg'
-                alt='ultrasound image'
-                width={200}
-                height={200}
                 />
-              <Image
-                src='/auroa19weeksfeet.jpg'
-                alt='ultrasound image'
-                width={200}
-                height={200}
+                <Image
+                  src='/auroa19weeksface.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
                 />
-                </div>
+                <Image
+                  src='/auroa19weeksfeet.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
+                />
+              </div>
               <p>Tina&apos;s belly is growing and really showing now!</p>
               <div className='flex flex-row gap-2'>
                 <Image
@@ -197,8 +212,8 @@ export default function Registry() {
               <strong>2/26/25: 16-Week Heartbeat Listening</strong>
               <p>
                 We got to hear the heartbeat for the first time! It was about
-                145/minute, everything sounded normal and rhythmic. It was really
-                cool to get to hear Aurora&apos;s healthy little heart 💗
+                145/minute, everything sounded normal and rhythmic. It was
+                really cool to get to hear Aurora&apos;s healthy little heart 💗
               </p>
               <br />
               <strong>1/24/25: 11-Week Ultrasound</strong>
@@ -220,10 +235,12 @@ export default function Registry() {
                 The best Christmas present! We got to see Aurora for the first
                 time. She was about 1cm long and had a tiny heartbeat; She was
                 just a little blob and yolk sack but it was a special day to
-                remember. We found out her birthday is estimated for August 12th;
-                close to her mom&apos;s on August 8th. Another feisty Leo 🦁
+                remember. We found out her birthday is estimated for August
+                12th; close to her mom&apos;s on August 8th. Another feisty Leo
+                🦁
                 <br />
-                Genetic testing passed with low risk of chromosomal abnormalities. So Grateful!
+                Genetic testing passed with low risk of chromosomal
+                abnormalities. So Grateful!
               </p>
               <Image
                 src='/aurora7weeks.jpg'
