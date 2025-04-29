@@ -133,7 +133,19 @@ export default function Registry() {
             />
             <strong>Updates:</strong>
             <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
-              <strong>4/16/25: 24-Week - Little Kicks</strong>
+              <strong>4/24/25: 24-Week - Checkup</strong>
+              <p>
+                We listened to Aurora&apos;s heartbeat, and it was strong and
+                rhythmic at 140bpm. She&apos;s growing right on track. She kept
+                wiggling out the way when the doctor pressed the microphone
+                against her, there was a final straw and Aurora kicked the
+                microphone off of my stomach. We were cracking up!
+                <br />
+                Tina had a few blood draws to check her glucose levels and
+                immunity response levels. Everything is looking good fortunately!
+              </p>
+              <br />
+              <strong>4/16/25: 23-Week - Little Kicks</strong>
               <p>
                 Aurora is having more and more fun with her kicks. Tina no
                 longer confuses them for gas bubbles. There have been some
@@ -317,7 +329,7 @@ export default function Registry() {
         <FundTracker
           fundName='Big Purchases'
           fundGoal={2550}
-          fundCurrent={700}
+          fundCurrent={1700}
         />
       </div>
     </div>
