@@ -133,6 +133,19 @@ export default function Registry() {
             />
             <strong>Updates:</strong>
             <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
+              <strong>4/24/25: 26-Week - First Mother&apos;s Day!</strong>
+              <p>
+                Had a lovely time with my house mates, who made a big brunch for us to be moms! Such a yummy
+                spread and tons of love in the house
+                <br />
+                <Image
+                  src='/26-week-mother-day.jpg'
+                  alt='friends at gala'
+                  width={400}
+                  height={400}
+                />
+              </p>
+              <br />
               <strong>4/24/25: 24-Week - Checkup</strong>
               <p>
                 We listened to Aurora&apos;s heartbeat, and it was strong and
