@@ -17,7 +17,7 @@ Highlight the option the user picked
 
 export default function VotingBars() {
   const [votes, setVotes] = useState({ cat: 0, dog: 0 });
-  const [userVotes, setUserVotes] = useState(null);
+  // const [userVotes, setUserVotes] = useState(null);
 
   const totalVotes = votes.cat + votes.dog;
   const percentageCat =
