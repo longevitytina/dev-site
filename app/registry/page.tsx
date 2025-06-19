@@ -98,18 +98,21 @@ export default function Registry() {
             alt='ultrasound image'
             width={300}
             height={300}
+            className='object-cover'
           />
           <Image
             src='/marcTina.jpg'
             alt='Marc and Tina'
             width={300}
             height={300}
+            className='object-cover'
           />
           <Image
             src='/auroa19weeks.jpg'
             alt='ultrasound image'
             width={300}
             height={300}
+            className='object-cover'
           />
         </div>
 
@@ -133,16 +136,116 @@ export default function Registry() {
             />
             <strong>Updates:</strong>
             <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
-              <strong>4/24/25: 26-Week - First Mother&apos;s Day!</strong>
+              <strong>6/18/25: 32-Week Checkup</strong>
               <p>
-                Had a lovely time with my house mates, who made a big brunch for us to be moms! Such a yummy
-                spread and tons of love in the house
+                We had a heart rate check and everything is looking great!
+                Aurora is growing right on track! Aurora is so active, her kicks
+                are becoming very frequent and STRONG. The Nurse Practitioner
+                said Aurora is peaking for kick strength and they will start
+                becoming softer as she takes up more space.
+                <br />
+                Tina is having a harder time getting comfortable at night due to
+                acid reflux, but she is getting better at managing it. Eight
+                more weeks to go!
+                <br />
+              </p>
+              <br />
+              <strong>6/17/25: Our first Doula meeting</strong>
+              <p>
+                We had our first meeting with our Doula Heather, she is a
+                wonderful person and we are so excited to have her join us on
+                this journey. She provided us with a lot of information and
+                resources to help us prepare for the birth of our baby and what
+                to expect at the hospital. So much to learn!
+                <br />
+              </p>
+              <br />
+              <strong>6/14/25: Elopement photoshoot</strong>
+              <p>
+                We had a photoshoot with our friend and photographer, who took
+                some amazing photos in Golden Gate Park, we have so many
+                beautiful photos to choose from!
+                </p>
+                <br />
+                <Image
+                  src='/tinaMarcElope.jpg'
+                  alt='tina and Marc'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+              <br />
+              <strong>
+                6/3/25-6/10/25: Visiting family and friends in Vegas
+              </strong>
+              <p>
+                Tina took a week trip to Vegas to visit family and friends. She
+                spent a lot of time with her granny and reconnected with her old
+                friends. She relaxed at the MGM Grand in the lazy river with her
+                Brother Billy, Sister-in-law Marissa, nephews Logan and Lucas
+                and some of her old friends.
+              </p>
+
+                <br />
+                <div className='flex flex-col md:flex-row gap-2'>
+                  <Image
+                    src='/30-weekPool.JPG'
+                    alt='tina at pool'
+                    width={300}
+                    height={300}
+                    className='object-cover'
+                  />
+                  <Image
+                    src='/GrannyTina30week.jpg'
+                    alt='granny and tina'
+                    width={300}
+                    height={300}
+                    className='object-cover'
+                  />
+                  <Image
+                    src='/LindaTina30week.jpg'
+                    alt='linda and tina'
+                    width={300}
+                    height={300}
+                    className='object-cover'
+                  />
+                  <Image
+                    src='/arianeTina30week.jpg'
+                    alt='ariane and tina'
+                    width={300}
+                    height={300}
+                    className='object-cover'
+                  />
+                  <Image
+                    src='/ariane2Tina30week.jpg'
+                    alt='ariane and tina'
+                    width={300}
+                    height={300}
+                    className='object-cover'
+                  />
+                </div>
+              <br />
+              <strong>5/21/25: 28-Week Checkup</strong>
+              <p>
+                We listened to Aurora&apos;s heartbeat, our Nurse Practitioner
+                was slightly concerned that it was a bit fast. So Tina went to
+                the bigger hospital to get a longer 20 minute heart rate check.
+                Everything was within normal range, it was probably just a
+                random spike.
+                <br />
+              </p>
+              <br />
+              <strong>5/11/25: First Mother&apos;s Day!</strong>
+              <p>
+                Had a lovely time with my house mates, who made a big brunch for
+                us to be moms! Such a yummy spread and tons of love in the house
                 <br />
                 <Image
                   src='/26-week-mother-day.jpg'
                   alt='friends at gala'
                   width={400}
                   height={400}
+                  className='object-cover'
                 />
               </p>
               <br />
@@ -155,7 +258,8 @@ export default function Registry() {
                 microphone off of my stomach. We were cracking up!
                 <br />
                 Tina had a few blood draws to check her glucose levels and
-                immunity response levels. Everything is looking good fortunately!
+                immunity response levels. Everything is looking good
+                fortunately!
               </p>
               <br />
               <strong>4/16/25: 23-Week - Little Kicks</strong>
@@ -179,6 +283,7 @@ export default function Registry() {
                 alt='friends at gala'
                 width={400}
                 height={400}
+                className='object-cover'
               />
               <br />
               <strong>4/2/25: 21-Week - Is that a kick?</strong>
@@ -198,24 +303,27 @@ export default function Registry() {
                 is growing right on track. Check out these cute pics of
                 Aurora&apos;s little butt(upward facing angle), face, and feet!
               </p>
-              <div className='flex flex-row gap-2'>
+              <div className='flex flex-col md:flex-row gap-2'>
                 <Image
                   src='/auroa19weeksbutt.jpg'
                   alt='ultrasound image'
                   width={200}
                   height={200}
+                  className='object-cover'
                 />
                 <Image
                   src='/auroa19weeksface.jpg'
                   alt='ultrasound image'
                   width={200}
                   height={200}
+                  className='object-cover'
                 />
                 <Image
                   src='/auroa19weeksfeet.jpg'
                   alt='ultrasound image'
                   width={200}
                   height={200}
+                  className='object-cover'
                 />
               </div>
               <p>Tina&apos;s belly is growing and really showing now!</p>
@@ -225,12 +333,14 @@ export default function Registry() {
                   alt='ultrasound image'
                   width={200}
                   height={200}
+                  className='object-cover'
                 />
                 <Image
                   src='/5weeks.jpg'
                   alt='ultrasound image'
                   width={200}
                   height={200}
+                  className='object-cover'
                 />
               </div>
               <br />
@@ -253,6 +363,7 @@ export default function Registry() {
                 alt='ultrasound image'
                 width={200}
                 height={200}
+                className='object-cover'
               />
               <br />
               <strong>12/24/25: 7-Week Ultrasound</strong>
@@ -272,6 +383,7 @@ export default function Registry() {
                 alt='ultrasound image'
                 width={200}
                 height={200}
+                className='object-cover'
               />
             </div>
           </div>
