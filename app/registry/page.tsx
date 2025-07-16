@@ -135,7 +135,84 @@ export default function Registry() {
               height={40}
             />
             <strong>Updates:</strong>
-            <div className='border p-2 rounded text-black text-left overflow-y-auto h-[300px] w-full'>
+            <div className='border p-2 rounded text-black text-left overflow-y-auto h-[800px] w-full'>
+              <strong>7/16/25: 36-Week Checkup</strong>
+              <p>
+                Final ultrasound! Aurora is head down, facing down, and growing
+                on track. We&apos;re so grateful that the pregnancy has been
+                smooth and uneventful. FOUR more weeks to go!
+                <br />
+              <div className='flex flex-col md:flex-row gap-2'>
+                <Image
+                  src='/tina34weeks.jpg'
+                  alt='pregnant tina 34 weeks'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/20weeks.jpg'
+                  alt='ultrasound image'
+                  width={200}
+                  height={200}
+                  className='object-cover'
+                />
+                <Image
+                  src='/marcTinaDorking.jpg'
+                  alt='pregnant tina 34 weeks'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                </div>
+                <br />
+              </p>
+              <br />
+              <strong>7/8/25: Shotgun Wedding!</strong>
+              <p>
+                Today we got married! We had a small ceremony with a friends at
+                the San Francisco City Hall. It was an amazing day, just the way
+                we wanted it. We are so grateful to have our community in San
+                Francisco to support us and surround Aurora with incredible role
+                models.
+                <br />
+                <Image
+                  src='/wedding1.JPG'
+                  alt='tina and Marc wedding'
+                  width={1000}
+                  height={500}
+                  className='object-cover'
+                />
+                <br />
+              <div className='flex flex-row gap-2'>
+
+                <Image
+                  src='/wedding2.JPG'
+                  alt='tina and Marc wedding'
+                  width={500}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/bikeWedding.JPG'
+                  alt='bike wedding'
+                  width={800}
+                  height={300}
+                  className='object-cover'
+                />
+                </div>
+              </p>
+              <br />
+              <strong>7/1/25: Second Doula meeting</strong>
+              <p>
+                Another info dump from our Doula meeting. We learned about the
+                different stages of labor and what to expect. We learned
+                different prepping techniques to try and encourage Aurora to
+                stay in the right position for birth.
+                <br />
+                <br />
+              </p>
+              <br />
               <strong>6/18/25: 32-Week Checkup</strong>
               <p>
                 We had a heart rate check and everything is looking great!
@@ -165,15 +242,15 @@ export default function Registry() {
                 We had a photoshoot with our friend and photographer, who took
                 some amazing photos in Golden Gate Park, we have so many
                 beautiful photos to choose from!
-                </p>
-                <br />
-                <Image
-                  src='/tinaMarcElope.jpg'
-                  alt='tina and Marc'
-                  width={300}
-                  height={300}
-                  className='object-cover'
-                />
+              </p>
+              <br />
+              <Image
+                src='/tinaMarcElope.jpg'
+                alt='tina and Marc'
+                width={300}
+                height={300}
+                className='object-cover'
+              />
               <br />
               <strong>
                 6/3/25-6/10/25: Visiting family and friends in Vegas
@@ -186,44 +263,44 @@ export default function Registry() {
                 and some of her old friends.
               </p>
 
-                <br />
-                <div className='flex flex-col md:flex-row gap-2'>
-                  <Image
-                    src='/30-weekPool.JPG'
-                    alt='tina at pool'
-                    width={300}
-                    height={300}
-                    className='object-cover'
-                  />
-                  <Image
-                    src='/GrannyTina30week.jpg'
-                    alt='granny and tina'
-                    width={300}
-                    height={300}
-                    className='object-cover'
-                  />
-                  <Image
-                    src='/LindaTina30week.jpg'
-                    alt='linda and tina'
-                    width={300}
-                    height={300}
-                    className='object-cover'
-                  />
-                  <Image
-                    src='/arianeTina30week.jpg'
-                    alt='ariane and tina'
-                    width={300}
-                    height={300}
-                    className='object-cover'
-                  />
-                  <Image
-                    src='/ariane2Tina30week.jpg'
-                    alt='ariane and tina'
-                    width={300}
-                    height={300}
-                    className='object-cover'
-                  />
-                </div>
+              <br />
+              <div className='flex flex-col md:flex-row gap-2'>
+                <Image
+                  src='/30-weekPool.JPG'
+                  alt='tina at pool'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/GrannyTina30week.jpg'
+                  alt='granny and tina'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/LindaTina30week.jpg'
+                  alt='linda and tina'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/arianeTina30week.jpg'
+                  alt='ariane and tina'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+                <Image
+                  src='/ariane2Tina30week.jpg'
+                  alt='ariane and tina'
+                  width={300}
+                  height={300}
+                  className='object-cover'
+                />
+              </div>
               <br />
               <strong>5/21/25: 28-Week Checkup</strong>
               <p>
