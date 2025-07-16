@@ -530,8 +530,8 @@ export default function Registry() {
       <div className='flex py-2 items-center justify-center'>
         <FundTracker
           fundName='Big Purchases'
-          fundGoal={2550}
-          fundCurrent={1700}
+          fundGoal={5000}
+          fundCurrent={3100}
         />
       </div>
     </div>
